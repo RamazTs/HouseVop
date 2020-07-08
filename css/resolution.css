@@ -1,0 +1,238 @@
+@media screen and (max-width: 992px) {
+  h1 {
+    position: absolute;
+    left: 17%;
+    bottom: 40%;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    height: max-content;
+    animation: slide-in 1.5s ease;
+  }
+  .phone{
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .location{
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .first-screen__menu{
+    display: none;
+  }
+
+  .hamburger{
+    display: block;
+    text-decoration: none;
+    color: #D4C17F;
+    background-color: transparent;
+    border: 0;
+  }
+
+  i{
+    font-size: 30px;
+  }
+
+  .small-nav{
+    display: block;
+    position: absolute;
+    z-index: 1000;
+  }
+
+  .small-nav-links{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    clip-path: circle(1px at 85% -20%);
+    -webkit-clip-path: circle(1px at 85% -20%);
+    transition: all 1s ease-out;
+  }
+  .small-nav-links.open{
+    clip-path: circle(2000px at 85% -10%);
+    -webkit-clip-path: circle(2000px at 85% -10%);
+  }
+
+  .picture-grid{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-gap: 30px;
+    max-width: 1110px;
+  }
+
+  .picture-grid .grid-box{
+    width: 100%;
+    position: relative;
+  }
+
+  .footer-columns ul li{
+    text-align: center;
+    list-style: none;
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .first-screen__logo .header{
+    font-family: PostNoBillsJaffna-SemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    margin: 0;
+    color: #FFFFFF;
+    cursor: default;
+  }
+  .first-screen__logo .sub-header{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    letter-spacing: 0.12em;
+    color: #FFFFFF;
+    cursor: default;
+  }
+  .video{
+    position: relative;
+    padding-top: 100px;
+  }
+  .testimonial-columns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 794px;
+    margin: auto;
+  }
+
+  .bench{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    max-width: 198px;
+  }
+  .building{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 134px;
+  }
+  .bicycle{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 125px;
+  }
+  .fountain{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 136px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+
+  h1 {
+    position: absolute;
+    left: 23%;
+    bottom: 40%;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+    height: max-content;
+    animation: slide-in 1.2s ease;
+  }
+
+  .mouse-wheel{
+    display: none;
+  }
+
+  .phone{
+    display: none;
+  }
+  .location{
+    display: none;
+  }
+
+  .jumbo-header{
+    padding-left: 20px;
+  }
+  .container .jumbo-subheader{
+    padding-top: 50px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    max-width: 535px;
+    margin: auto;
+    padding-left: 20px;
+  }
+  .button-grid{
+    grid-gap: 15px;
+  }
+  .button-transparent{
+    width: 90%;
+  }
+  .button-accent{
+    width: 90%;
+  }
+  .jumbotron .row {
+    padding-top: 100px;
+  }
+
+  .footer-columns{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .footer-columns-logo{
+    padding-top: 52px;
+    padding-bottom: 10px;
+  }
+}
